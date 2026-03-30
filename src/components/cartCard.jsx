@@ -1,13 +1,14 @@
 import React from 'react';
+ import { ToastContainer, toast } from 'react-toastify';
 
 const cartCard = ({items, setCart}) => {
 
     const totalCart = items.reduce((sum, item)=>sum+item.Price, 0)
 
     const emptyCart=()=>{
-        setCart([])
+        setCart([]);
+        toast("Cart is empty!")
     }
-
 
     return (
         <div>
@@ -31,7 +32,10 @@ const cartCard = ({items, setCart}) => {
                 <h1 className="text-sm font-regular text-gray-500 my-3">Total:</h1>
                 <h1 className="font-bold text-xl">${totalCart}</h1>
             </div>
+            <div>
             <button onClick={()=>emptyCart()} className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA] btn text-white font-semibold rounded-full mt-3 w-full'>Proceed to checkout</button>
+            <ToastContainer />
+            </div>
         </div>
     );
 };
