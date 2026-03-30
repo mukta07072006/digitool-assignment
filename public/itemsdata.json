@@ -1,14 +1,20 @@
 [
   {
+    "id": "prod-001",
     "Name": "Nebula UI Kit",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/9334/9334533.png",
+    "emoji": "🎨",
     "Description": "A comprehensive set of dark-themed React components for high-end web applications.",
     "Price": 49,
     "Period": "One-time",
     "TagType": "Best Seller",
-    "Features": ["50+ Components", "Tailwind CSS Support", "Figma Source Files","24/7 Support"]
+    "Features": ["50+ Components", "Tailwind CSS Support", "Figma Source Files", "24/7 Support"]
   },
   {
+    "id": "prod-002",
     "Name": "Quantum API",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/2165/2165004.png",
+    "emoji": "⚡",
     "Description": "Real-time data synchronization for inventory and restaurant management systems.",
     "Price": 29,
     "Period": "Monthly",
@@ -16,15 +22,21 @@
     "Features": ["99.9% Uptime", "Webhooks", "Unlimited Requests", "24/7 Support"]
   },
   {
+    "id": "prod-003",
     "Name": "Vanguard Security",
-    "Description": "Automated vulnerability scanning and protection for small-scale web projects.",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/1055/1055644.png",
+    "emoji": "🛡️",
+    "Description": "Automated vulnerability scanning and protection for small-scale web projects. Top Level security",
     "Price": 0,
     "Period": "Free",
     "TagType": "Essential",
-    "Features": ["Daily Scans", "SSL Monitoring", "Email Alerts","24/7 Support"]
+    "Features": ["Daily Scans", "SSL Monitoring", "Email Alerts", "24/7 Support"]
   },
   {
+    "id": "prod-004",
     "Name": "Apex Brand Suite",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/3222/3222672.png",
+    "emoji": "💎",
     "Description": "A complete digital branding package including logos, social media assets, and fonts.",
     "Price": 199,
     "Period": "One-time",
@@ -32,7 +44,10 @@
     "Features": ["Custom Logo Design", "Brand Guidelines", "Social Media Templates"]
   },
   {
+    "id": "prod-005",
     "Name": "Lumina Analytics",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+    "emoji": "📊",
     "Description": "Privacy-focused website analytics that provide deep insights without tracking cookies.",
     "Price": 12,
     "Period": "Monthly",
@@ -40,8 +55,11 @@
     "Features": ["Heatmaps", "User Flow Diagrams", "Custom Reports"]
   },
   {
+    "id": "prod-006",
     "Name": "CloudDraft Pro",
-    "Description": "Collaborative vector editing tool built directly into the browser for agile teams.",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/1162/1162901.png",
+    "emoji": "☁️",
+    "Description": "Collaborative vector editing tool built directly into the browser for agile teams. 100% secure",
     "Price": 15,
     "Period": "Monthly",
     "TagType": "New",

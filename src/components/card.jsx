@@ -3,12 +3,18 @@ import Icon1 from '../assets/products/design-tool.png'
 import { MdOutlineDone } from "react-icons/md";
 
 
-const card = ({card}) => {
+const Card = ({card, setCart, cart}) => {
+
+    const addToCart=()=>{
+        setCart([...cart, card])
+        // console.log(cart);
+    }
+    
     return (
         <div>
            <div className='bg-base-100 border border-gray-100 rounded-lg p-3 h-full'>
             <div className='flex justify-between '>
-                <img className='btn rounded-full p-3' src={Icon1} alt="" />
+                <img className='btn rounded-full p-1' src={card.icon_url} alt="" />
                 <span className='badge badge-warning badge-soft'>{card.TagType}</span>
             </div>
             <h1 className='text-2xl font-semibold my-5'>{card.Name}</h1>
@@ -17,10 +23,10 @@ const card = ({card}) => {
             {
                 card.Features.map(feature=><p className='flex gap-3 items-center font-regular text-gray-700'><MdOutlineDone className='text-green-500'/>{feature}</p>)
             }
-            <button className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA] btn text-white font-semibold rounded-full mt-3 w-full text-md'>Buy Now</button>
+            <button onClick={()=>addToCart()} className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA] btn text-white font-semibold rounded-full mt-3 w-full text-md'>Buy Now</button>
            </div>
         </div>
     );
 };
 
-export default card;
+export default Card;
