@@ -3,7 +3,7 @@ import { IoCartOutline } from 'react-icons/io5';
 
 const Header = () => {
     return (
-        <div className='flex justify-between px-30 border border-gray-300 py-5 items-center'>
+        <div className='flex justify-between px-30 border border-gray-300 py-5 items-center font'>
             <h1 className='text-4xl font-bold'>DigiTools</h1>
             <ul className='flex gap-5 items-center'>
                 <li>Products</li>

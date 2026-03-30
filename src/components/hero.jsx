@@ -4,7 +4,7 @@ import banner from '../assets/banner.png'
 
 const hero = () => {
     return (
-        <div className="px-30 py-10">
+        <div className="px-30 py-10 font">
   <div className="flex justify-between items-center">
     <div className="max-w-xl">
       <div className="bg-[#E1E7FF] rounded-full text-[#4F39F6] btn">

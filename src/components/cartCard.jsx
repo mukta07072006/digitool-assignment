@@ -8,7 +8,7 @@ const cartCard = ({items, setCart}) => {
     const emptyCart=()=>{
         setCart([]);
         toast("Cart is empty!")
-    }
+    } 
 
     return (
         <div>
@@ -25,7 +25,7 @@ const cartCard = ({items, setCart}) => {
                         <h1 className="text-md font-regular text-gray-600">${info.Price}</h1>
                     </div>
                 </div>
-                <h1 className="text-red-600 text-sm font-semibold">Remove</h1>
+                <button className="text-red-600 text-sm font-semibold cursor-pointer" onClick={() => setCart(items.filter(item => item !== info))}>Remove</button>
                 </div>)
             }
             <div className="flex justify-between items-center">
