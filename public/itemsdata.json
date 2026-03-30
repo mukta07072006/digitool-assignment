@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Nebula UI Kit",
+    "Description": "A comprehensive set of dark-themed React components for high-end web applications.",
+    "Price": 49,
+    "Period": "One-time",
+    "TagType": "Best Seller",
+    "Features": ["50+ Components", "Tailwind CSS Support", "Figma Source Files","24/7 Support"]
+  },
+  {
+    "Name": "Quantum API",
+    "Description": "Real-time data synchronization for inventory and restaurant management systems.",
+    "Price": 29,
+    "Period": "Monthly",
+    "TagType": "Developer",
+    "Features": ["99.9% Uptime", "Webhooks", "Unlimited Requests", "24/7 Support"]
+  },
+  {
+    "Name": "Vanguard Security",
+    "Description": "Automated vulnerability scanning and protection for small-scale web projects.",
+    "Price": 0,
+    "Period": "Free",
+    "TagType": "Essential",
+    "Features": ["Daily Scans", "SSL Monitoring", "Email Alerts","24/7 Support"]
+  },
+  {
+    "Name": "Apex Brand Suite",
+    "Description": "A complete digital branding package including logos, social media assets, and fonts.",
+    "Price": 199,
+    "Period": "One-time",
+    "TagType": "Premium",
+    "Features": ["Custom Logo Design", "Brand Guidelines", "Social Media Templates"]
+  },
+  {
+    "Name": "Lumina Analytics",
+    "Description": "Privacy-focused website analytics that provide deep insights without tracking cookies.",
+    "Price": 12,
+    "Period": "Monthly",
+    "TagType": "Privacy",
+    "Features": ["Heatmaps", "User Flow Diagrams", "Custom Reports"]
+  },
+  {
+    "Name": "CloudDraft Pro",
+    "Description": "Collaborative vector editing tool built directly into the browser for agile teams.",
+    "Price": 15,
+    "Period": "Monthly",
+    "TagType": "New",
+    "Features": ["Real-time Editing", "Version History", "Team Libraries"]
+  }
+]
