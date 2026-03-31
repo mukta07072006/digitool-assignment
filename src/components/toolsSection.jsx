@@ -2,9 +2,9 @@ import React, { Suspense, useMemo, useState } from 'react';
 import Cards from './itemsCard.jsx'
 import Cart from './cart.jsx'
 
-const ToolsSection = () => {
+const ToolsSection = ({cartItems, setCartItems}) => {
   const [active, setActive] = useState('products')
-  const [cartItems, setCartItems] = useState([])
+  
 
   const promise = useMemo(() => {
     return fetch('/itemsdata.json').then(res => res.json())

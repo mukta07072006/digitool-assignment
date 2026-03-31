@@ -25,7 +25,7 @@ const stepSection =()=>{
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title text-2xl font-bold">Create Account </h2>
-    <p className="text-lg">Browse our catalog and select the tools <br />that fit your needs.</p>
+    <p>Browse our catalog and select the tools <br />that fit your needs.</p>
   </div>
         </div>
           <div className="card bg-base-100 h-96  border border-gray-200">

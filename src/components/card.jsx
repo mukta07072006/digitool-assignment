@@ -1,12 +1,14 @@
 import React from 'react';
 import Icon1 from '../assets/products/design-tool.png'
 import { MdOutlineDone } from "react-icons/md";
+import { toast } from 'react-toastify';
 
 
 const Card = ({card, setCart, cart}) => {
 
     const addToCart=()=>{
         setCart([...cart, card])
+        toast.success(`${card.Name} added to cart`)
         // console.log(cart);
     }
     

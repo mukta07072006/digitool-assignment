@@ -1,5 +1,6 @@
 import React from 'react';
- import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
+
 
 const cartCard = ({items, setCart}) => {
 
@@ -7,7 +8,7 @@ const cartCard = ({items, setCart}) => {
 
     const emptyCart=()=>{
         setCart([]);
-        toast("Cart is empty!")
+        toast.error("Cart is empty")
     } 
 
     return (
@@ -34,7 +35,7 @@ const cartCard = ({items, setCart}) => {
             </div>
             <div>
             <button onClick={()=>emptyCart()} className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA] btn text-white font-semibold rounded-full mt-3 w-full'>Proceed to checkout</button>
-            <ToastContainer />
+
             </div>
         </div>
     );
